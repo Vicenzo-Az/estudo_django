@@ -5,7 +5,7 @@ def blog(request):
     print('blog')
 
     context = {
-        'text': 'Ola blog',
+        'text': 'Olá Blog',
         'title': 'Blog'    
     }
 
@@ -20,7 +20,7 @@ def exemplo(request):
     print('exemplo blog')
 
     context = {
-        'text': 'Ola exemplo do blog',
+        'text': 'Olá Exemplo do blog',
         'title': 'Exemplo do blog'    
     }
 
